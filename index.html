@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thato Selokela ( Uuhm hey )</title>
+    <style>
+      
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body */
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            line-height: 1.6;
+            background: #f4f4f4;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+        }
+
+        header h1 {
+            text-align: center;
+            font-size: 2.5rem;
+        }
+
+        .cover-photo {
+            width: 100%;
+            height: 200px;
+            background: #ddd;
+            background-image: url('/IMG-20240628-WA0003.jpg'); 
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid #fff;
+            position: absolute;
+            top: 125px;
+            left: 20px;
+            background: #fff;
+            background-image: url('/20240702_122403.jpg'); 
+            background-size: cover;
+            background-position: center;
+        }
+
+        .profile-info {
+            margin-top: 100px;
+            padding: 0 1rem;
+        }
+
+        .profile-info h2 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .profile-info p {
+            margin-bottom: 1rem;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            margin-top: 1rem;
+            background: #007BFF;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background: #0056b3;
+        }
+
+        .section {
+            padding: 2rem 0;
+            background: #fff;
+            margin-bottom: 1rem;
+        }
+
+        .section h2 {
+            margin-bottom: 1rem;
+            color: #333;
+        }
+
+        .section p {
+            margin-bottom: 1rem;
+        }
+
+        .section ul {
+            margin: 1rem 0;
+        }
+
+        .section ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Thato Selokela </h1>
+        </div>
+    </header>
+
+    <div class="cover-photo">
+        <div class="profile-pic"></div>
+    </div>
+
+    <div class="container profile-info">
+        <h2>About Me</h2>
+        <p>Hi, I'm Thato Selokela uhmm.... I'm currently working on various projects and theories, including an innovative theory on the origins of life. oh I aim to develop applications and games that can make a difference in the world.( I hope )</p>
+    </div>
+
+    <section id="theory" class="section">
+        <div class="container">
+            <h2>My Theory</h2>
+            <p>Check out my theory on the origins of life, which combines physical science and life science to propose a unique perspective on how life might have started.</p>
+            <a href="theory" class="btn">Read My Theory</a> 
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Upcoming Projects</h2>
+            <h3>Game: Ue Life</h3>
+            <p>I'm developing a new game called "Ue Life," which will offer a unique and engaging experience. Stay tuned for more details!</p>
+            <h3>Application</h3>
+            <p>I'm also working on a new application designed to solve real-world problems and provide innovative solutions.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>reach out to me via the contact form below or directly at my email address.</p>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit" class="btn">Send</button>
+            </form>
+            <p>Email me directly at <a href="mailto:selokelathato28@gmail.com">selokelathato28@gmail.com</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Thato Selokela. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
